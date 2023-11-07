@@ -1,3 +1,9 @@
+import Triangle from "./triangle.js";
+
+const triangle = new Triangle(3, 4, 5);
+console.log(triangle.checkType());
+
+
 function handleTriangleForm() {
   event.preventDefault();
   document.querySelector('#response').innerText = null;
